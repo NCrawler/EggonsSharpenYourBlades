@@ -1,0 +1,60 @@
+module ESYB
+{
+    imports
+	{
+		Base
+	}
+
+    item Sandstone
+    {
+        Weight	=	0.6,
+        Type	=	Normal,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Sandstone,
+        Icon	=	Sandstone,
+    }
+    item HomemadeWhetstone
+    {
+        Weight	=	0.4,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+        DisplayName	=	Homemade Whetstone,
+        Icon	=	HomemadeWhetstone,
+        WeightEmpty = 0
+    }
+    item Whetstone
+    {
+        Weight	=	0.4,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.1,
+        DisplayName	=	Whetstone,
+        Icon	=	Whetstone,
+        SurvivalGear = TRUE,
+        WeightEmpty = 0
+    }
+    item TableGrinder
+    {
+        Weight	=	14,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.025,
+        DisplayName	=	Table Grinder,
+        Icon	=	TableGrinder,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        SurvivalGear = TRUE,
+        WeightEmpty = 12
+    }
+    item TableGrinderWithoutWheels
+    {
+        Weight	=	12,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.025,
+        DisplayName	=	Table Grinder Without Grinding Wheels,
+        Icon	=	TableGrinderWithoutWheels,
+        SurvivalGear = TRUE,
+        WeightEmpty = 12
+    }
+}

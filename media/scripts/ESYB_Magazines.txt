@@ -1,0 +1,65 @@
+module ESYB
+{
+    imports
+	{
+		Base
+	}
+
+    item MagazineAllAboutBladeBevels
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Blade Fanatics' Quarterly - All About Blade Bevels,
+        Icon	=	MagazineAllAboutBladeBevels,
+        TeachedRecipes  =   AllAboutBladeBevels,
+        ReplaceOnUse    =   MagazineAllAboutBladeBevels,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+
+    item MagazineTableGrinderUserManual
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Table Grinder User Manual,
+        Icon	=	MagazineTableGrinderUserManual,
+        TeachedRecipes  =   TableGrinderUserManual,
+        ReplaceOnUse    =   MagazineTableGrinderUserManual,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+    item MagazineJapaneseMastersSpecialEdition
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Blade Fanatics' Quarterly - Japanese Masters Special Edition,
+        Icon	=	MagazineJapaneseMastersSpecialEdition,
+        TeachedRecipes  =   JapaneseMastersSpecialEdition,
+        ReplaceOnUse    =   MagazineJapaneseMastersSpecialEdition,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+    item MagazineTypicalSharpeningMistakes
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Blade Fanatics' Quarterly - Typical Sharpening Mistakes,
+        Icon	=	MagazineTypicalSharpeningMistakes,
+        TeachedRecipes  =   TypicalSharpeningMistakes,
+        ReplaceOnUse    =   MagazineTypicalSharpeningMistakes,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+    item MagazineHomemadeGrindingTools
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=	Blade Fanatics' Quarterly - Homemade grinding tools,
+        Icon	=	MagazineHomemadeGrindingTools,
+        TeachedRecipes  =   Make Homemade Whetstone,
+        ReplaceOnUse    =   MagazineHomemadeGrindingTools,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineGround,
+    }
+
+}

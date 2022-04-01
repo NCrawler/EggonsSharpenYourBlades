@@ -1,0 +1,13 @@
+module Base
+{
+    recipe Make Homemade Whetstone
+    {
+       ESYB.Sandstone=2,
+       keep Hammer/ClubHammer/HammerStone,
+
+       Result:ESYB.HomemadeWhetstone,
+       Time:100.0,
+       NeedToBeLearn:true,
+       Category:Engineer,
+    }
+}
